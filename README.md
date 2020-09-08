@@ -1,12 +1,13 @@
 # Escrevendo uma API basica em Rust
 
+```doc
 Objetivo desta api
 
 GET /users — retorna todos os usuarios
 GET /users/{id} — retorna o usuário com um determinado id
 POST /users — recebe uma JSON e cria um novo usuário com base nela
 DELETE /users/{id} — exclui o usuário com um determinado id
-
+```
 
 ```zsh
 cargo run
